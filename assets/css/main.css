@@ -3972,3 +3972,4 @@ hr.major {
 		from, to { border-color: transparent }
 		50% { border-color: #9290C3 }
 	  }
+	  a {text-decoration: none;}
