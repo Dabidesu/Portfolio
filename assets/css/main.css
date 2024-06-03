@@ -3229,11 +3229,11 @@ hr.major {
 
 		/* First Section BG */
 		.wrapper.style1 {
-			background-color:  #222c3c  ;
+			background-color:  #1B1A55  ;
 		}
 
-		.wrapper.style1-alt {
-			background-color: #222c3c;
+		.wrapper.footer {
+			background-color: #14133dda;
 		}
 
 		.wrapper.style2 {
@@ -3245,11 +3245,11 @@ hr.major {
 		}
 
 		.wrapper.style3 {
-			background-color: #374955 ;
+			background-color: #535C91 ;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #989da6;
+			background-color: #a69898;
 		}
 
 		.wrapper.fullscreen {
@@ -3513,7 +3513,7 @@ hr.major {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #0c2431 ;
+		background: #070F2B ;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3726,7 +3726,7 @@ hr.major {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: #696663 ;
+			color: #9290C3 ;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3750,14 +3750,14 @@ hr.major {
 			}
 
 			#sidebar nav a:before {
-				background: #194a50 ;
+				background: #1B1A55 ;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #194a50, #d8a28c);
-				background-image: -webkit-linear-gradient(to right, #194a50, #d8a28c);
-				background-image: -ms-linear-gradient(to right, #194a50, #d8a28c);
-				background-image: linear-gradient(to right, #194a50, #d8a28c);
+				background-image: -moz-linear-gradient(to right, #194a50, #9290C3);
+				background-image: -webkit-linear-gradient(to right, #194a50, #9290C3);
+				background-image: -ms-linear-gradient(to right, #194a50, #9290C3);
+				background-image: linear-gradient(to right, #194a50, #9290C3);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3770,7 +3770,7 @@ hr.major {
 			}
 
 			#sidebar nav a.active {
-				color:  #d37556;
+				color:  #9290C3;
 			}
 
 				#sidebar nav a.active:after {
@@ -3846,7 +3846,7 @@ hr.major {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #d37556 ;
+							background-color: #9897d8 ;
 						}
 
 		}
@@ -3970,5 +3970,5 @@ hr.major {
 	  /* The typewriter cursor effect */
 	  @keyframes blink-caret {
 		from, to { border-color: transparent }
-		50% { border-color: #181f2b }
+		50% { border-color: #9290C3 }
 	  }
