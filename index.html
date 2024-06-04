@@ -19,6 +19,8 @@
 				titleScroll = window.setTimeout(scrolltitle,50);
 			}
 			scrolltitle();
+
+			
 		</script>
 	</head>
 	<body class="is-preload">
@@ -42,16 +44,18 @@
 								<div class="col typewriter inner w-100">
 									<h1>Henlo!</h1>
 									<h2>I'm Dabid.</h2><br>
-									<p>a tech enthusiast 🤖 <br>&nbsp a gamer 👾 <br> and a programmer 👨🏻‍💻 </p>
+									<p>a tech enthusiast 🤖 <br>
+										&nbsp a gamer 👾 <br> 
+										and a programmer 👨🏻‍💻 </p>
 									<ul class="actions">
 										<li><a href="" class="button scrolly" data-toggle="modal" data-target="#modalTest">View Resume</a>
 										</li>
 									</ul>
 								</div>
 								<div class="col wrapper col-md-3">
-									<figure class="ml-3">
-										<img class="figure-img img-fluid img-responsive" src="img/placeholder.jpg" alt="yours_truly">
-										<figcaption>Testo</figcaption>
+									<figure class="ml-3 shadow p-3 mb-5 bg-white ">
+										<img id="imgTesto" class="figure-img img-fluid img-responsive" src="img/placeholder.jpg" alt="yours_truly">
+										<figcaption id="imgCaption" class="cedarville-cursive-regular">me 🗿</figcaption>
 									</figure>
 								</div>	
 							</div>
@@ -190,11 +194,28 @@
 
 	</body>
 
+	<script>
+	let images = ['img/placeholder.jpg', 'img/2.jpg', 'img/3.jpg'];
+	let index = 0;
+	let captionsindex = 0;
+	const imgElement = document.querySelector('#imgTesto');
+	
+	function change() {
+	imgElement.src = images[index];
+	index > 1 ? index = 0 : index++;
+	}
+
+	window.onload = function () {
+		setInterval(change, 5000);
+	};
+	</script>
+
 	<div id="modalTest" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-xl modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-body">
-					<iframe src="https://drive.google.com/file/d/1FrDDrDQkWVg4pGe9ZMcYJrgTAiJ6HRzg/preview" width="100%" height="100%" allow="autoplay"></iframe>
+					<!--Disable on Test-->
+					<iframe src="https://drive.google.com/file/d/1FrDDrDQkWVg4pGe9ZMcYJrgTAiJ6HRzg/preview" loading="lazy" width="100%" height="100%" allow="autoplay"></iframe>
 				</div>
 			</div>
 		</div>
