@@ -3939,3 +3939,7 @@ hr.major {
 		50% { border-color: #9290C3 }
 	  }
 	  a {text-decoration: none;}
+
+	  #modalIntroA, #modalIntroB-body, #modalIntroC-content{
+		background: #9290C3;
+	  }
