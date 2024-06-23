@@ -7,8 +7,9 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/x-icon" href="img/95.png">
+		<link rel="icon" type="image/x-icon" href="assets/img/icons/95.png">
 		<script type='text/javascript'> 
 			title = '🏎️ Kachow  ';
 			position = 0;
@@ -54,7 +55,7 @@
 								</div>
 								<div class="col wrapper col-md-3">
 									<figure class="ml-3 shadow p-3 mb-5 bg-white ">
-										<img id="imgTesto" class="figure-img img-fluid img-responsive" src="img/placeholder.jpg" alt="yours_truly">
+										<img id="imgTesto" class="figure-img img-fluid img-responsive" src="assets/img/me/placeholder.jpg" alt="yours_truly">
 										<figcaption id="imgCaption" class="cedarville-cursive-regular">me 🗿</figcaption>
 									</figure>
 								</div>	
@@ -68,7 +69,7 @@
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code" style="display:inline-flex">
-										<img class="" src="img/icons/granoreal.png"></img>
+										<img class="" src="assets/img/icons/granoreal.png"></img>
 									</span>
 									<h3><a href="https://dabidesu.github.io/GranoReal/" target="_blank" class="proj">Grano Real</a></h3>
 									<p>A static website for my father's startup company.</p>
@@ -99,7 +100,7 @@
 									<p>Project Description</p>								</section>
 								<section>
 									<span class="icon solid major fa-code" style="display:inline-flex">
-										<img class="" src="img/icons/incognito.png"></img>
+										<img class="" src="assets/img/icons/incognito.png"></img>
 									</span>
 									<h3><a href="https://dabidesu.github.io/Anonymous-Grading-System/" target="_blank" class="proj">Anonymous Grading (WIP)</a></h3>
 									<p>Project Description</p>								</section>
@@ -186,6 +187,7 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
@@ -195,7 +197,7 @@
 	</body>
 
 	<script>
-	let images = ['img/placeholder.jpg', 'img/2.jpg', 'img/3.jpg'];
+	let images = ['assets/img/me/placeholder.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg'];
 	let index = 0;
 	let captionsindex = 0;
 	const imgElement = document.querySelector('#imgTesto');
@@ -222,10 +224,20 @@
 	</div>
 
 	<div id="modalIntroA" class="modal fade" tabindex="-1" role="dialog">
-		<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-body">
-					<p class="text-dark">Still a work-in-progress (WIP), sorry!</p>
+					<div class="photo-gallery">
+						<div class="container">
+							<div class="row photos">
+								<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/gallery_tech/S1.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/gallery_tech/S1.jpg"></a></div>
+								<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/gallery_tech/S2.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/gallery_tech/S2.jpg"></a></div>
+								<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/gallery_tech/S3.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/gallery_tech/S3.jpg"></a></div>
+								<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="assets/img/gallery_tech/S4.jpg" data-lightbox="photos"><img class="img-fluid" src="assets/img/gallery_tech/S4.jpg"></a></div>
+								<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="" data-lightbox="photos"><img class="img-fluid" src=""></a></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
