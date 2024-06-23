@@ -84,7 +84,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-
 @-ms-viewport {
 	width: device-width;
 }
@@ -3928,12 +3927,6 @@ hr.major {
   .column:nth-child(2) {
 	background-color: yellow;
   }
-
-  .modal-dialog,
-	.modal-content {
-    
-    height: 80%;
-	}
 
 	.typewriter h1 {
 		color: #fff;
