@@ -4008,4 +4008,11 @@ padding-bottom:20px;
 padding-bottom:30px;
 }
 	  
-	
+.item img {
+    width: 100%;
+}
+
+.overflow
+{
+    overflow: hidden;
+}
