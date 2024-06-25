@@ -4027,3 +4027,8 @@ padding-bottom:30px;
 	width: 30px;
 	height: 48px;
 }
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
