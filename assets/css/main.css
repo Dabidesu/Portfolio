@@ -4113,12 +4113,12 @@ body.modal-open {
 .start-btn{
     text-align: center;
 	display: inline-block;
-	margin:5px;
+	margin:12px;
     font-weight: bold;
     padding: 10px 0 10px 10px ;
     background-color: lightgray;
-    text-shadow: -1px -1px black, 1px 1px white;
-    color: gray;
+    text-shadow: -1px -1px rgb(67, 85, 0), 1px 1px rgb(0, 0, 0);
+    color: rgb(238, 255, 0);
     -webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	-o-border-radius: 7px;
@@ -4137,4 +4137,11 @@ body.modal-open {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }    
+}
+
+.flipImageHorizontally {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, 1);
 }
