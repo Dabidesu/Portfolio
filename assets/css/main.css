@@ -4117,7 +4117,7 @@ body.modal-open {
     font-weight: bold;
     padding: 10px 0 10px 10px ;
     background-color: lightgray;
-    text-shadow: -1px -1px rgb(67, 85, 0), 1px 1px rgb(0, 0, 0);
+    text-shadow: -1px -1px rgb(67, 85, 0), 1px 1px rgb(58, 58, 58);
     color: rgb(238, 255, 0);
     -webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
