@@ -3754,6 +3754,12 @@ hr.major {
 
 			#sidebar nav a.active {
 				color:  #9290C3;
+				animation-name: floating;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				margin-left: 30px;
+				margin-top: 5px;
 			}
 
 				#sidebar nav a.active:after {
@@ -4124,4 +4130,10 @@ body.modal-open {
 	box-shadow: none;
 	position: relative;
 	top: .2em;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
 }
