@@ -3929,6 +3929,7 @@ hr.major {
   }
 
 	.typewriter h1 {
+		font-size: 40px;
 		color: #fff;
 		font-family: monospace;
 		overflow: hidden; 
@@ -4043,3 +4044,15 @@ body.modal-open {
    .modal-open {
 	overflow: auto;
    }
+
+   .tiny5-regular {
+	font-family: "Tiny5", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  .press-start-2p-regular {
+	font-family: "Press Start 2P", system-ui;
+	font-weight: 200;
+	font-style: normal;
+  }
