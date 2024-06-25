@@ -14,9 +14,13 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" type="image/x-icon" href="assets/img/icons/SStesto.png">
 		<script type='text/javascript'> 
+			// Funni Title Animation
 			title = 'ˎˊ˗ˎˊ˗•⠀•⠀•⠀•⠀•⠀•⠀•⠀•👾👾👾⠀⠀⠀⠀⠀⠀⠀⠀⠀💥💥💥⠀⠀⠀⠀⋆｡°✩⠀⠀⠀';
 			position = 0;
 			function scrolltitle() {
@@ -42,18 +46,21 @@
 					</nav>
 				</div>
 			</section>
+			
 			<div id="wrapper">
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="container">
 							<div class="row">
 								<div class="col typewriter inner w-100">
 									<h1 style='font-family: "Press Start 2P", system-ui;'>Henlo!</h1>
-									<h2>I'm Dabid.</h2><br>
+									<h2>I'm Dabid.</h2>
+									<h3><a href="#" id="playAudioLink">/ðə bɪd/</a></h3><br>
+									<audio id="audio" src="assets/audio/IPA.mp3"></audio>
 									<p style='font-family: "Tiny5", sans-serif;'>a <a href="" data-toggle="modal" data-target="#modalIntroA">tech enthusiast</a> 🤖 <br>
 										&nbsp a <a href="" data-toggle="modal" data-target="#modalIntroB">gamer</a> 🎮 <br> 
 										and a 	<a href="" data-toggle="modal" data-target="#modalIntroC">programmer</a> 👨🏻‍💻 </p>
 									<ul class="actions">
-										<li><a href="" class="button scrolly" data-toggle="modal" data-target="#modalTest" style='font-family: "Tiny5", sans-serif;'>View Resume</a>
+										<li><a href="" class="button scrolly" data-toggle="modal" data-target="#modalTest" style='font-family: "Tiny5", sans-serif; text-decoration:none;'>View Resume</a>
 										</li>
 									</ul>
 								</div>
@@ -110,7 +117,7 @@
 									<p>Project Description</p>								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="https://github.com/Dabidesu" class="button" target="_blank" style='font-family: "Tiny5", sans-serif;'>View All</a></li>
+								<li><a href="https://github.com/Dabidesu" class="button" target="_blank" style='font-family: "Tiny5", sans-serif; text-decoration:none;'>View All</a></li>
 							</ul>
 						</div>
 					</section>
@@ -142,7 +149,7 @@
 											
 										</div>
 										<ul class="actions">
-											<li><a href="#" class="button submit" style='font-family: "Tiny5", sans-serif;'>Send Message</a></li>
+											<li><a href="#" class="button submit" style='font-family: "Tiny5", sans-serif; text-decoration:none;'>Send Message</a></li>
 										</ul>
 									</form>
 
@@ -215,6 +222,15 @@
 	window.onload = function () {
 		setInterval(change, 5000);
 	};
+
+	//Play Audio
+	const playAudioLink = document.getElementById('playAudioLink');
+        const audio = document.getElementById('audio');
+
+	playAudioLink.addEventListener('click', function(event) {
+		event.preventDefault();  
+		audio.play(); 
+	});
 	</script>
 
 	<div id="modalTest" class="modal fade" tabindex="-1" role="dialog">

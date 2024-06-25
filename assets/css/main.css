@@ -1,5 +1,6 @@
 html {
 	overflow-y: scroll;
+
 }
 
 /* Scrollbar */
@@ -110,6 +111,7 @@ html {
 
 body {
 	background: #222c3c;
+	font-family: "Abel", sans-serif !important;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -4056,3 +4058,22 @@ body.modal-open {
 	font-weight: 200;
 	font-style: normal;
   }
+
+  .abel-regular {
+	font-family: "Abel", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+  .play-regular {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .play-bold {
+	font-family: "Play", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
