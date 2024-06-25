@@ -4031,4 +4031,15 @@ padding-bottom:30px;
 body.modal-open {
     overflow: hidden;
     position: fixed;
+	width: 100% !important;
+    padding-right: 0 !important;
+    overflow-y: scroll !important;
 }
+
+.modal {
+	overflow-y: auto;
+   }
+   
+   .modal-open {
+	overflow: auto;
+   }
