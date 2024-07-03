@@ -48,26 +48,35 @@
 			</section>
 			
 			<div id="wrapper">
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="container">
-							<div class="row">
-								<div class="col typewriter inner w-100">
-									<h1 style='font-family: "Press Start 2P", system-ui;'>Henlo!</h1>
-									<h2>I'm Dabid.</h2>
+					<section id="intro" class="wrapper style1 fullscreen fade-up ">
+						<div class="container d-flex justify-content-center">
+							<div class="row mx-3">
+								<div class="col">
+									<div class="typewriter inner w-50"><h1 style='font-family: "Press Start 2P", system-ui;'>Henlo!</h1></div>
+									<h2 >I'm Dabid.</h2>
 									<h3><a href="#" id="playAudioLink">/ðə bɪd/</a></h3><br>
 									<audio id="audio" src="assets/audio/IPA.mp3"></audio>
 									<p style='font-family: "Tiny5", sans-serif;'>a <a href="" data-toggle="modal" data-target="#modalIntroA">tech enthusiast</a> 🤖 <br>
-										&nbsp a <a href="" data-toggle="modal" data-target="#modalIntroB">gamer</a> <img src="assets/img/icons/Amogus.gif" style="width:6.9%"></image><br> 
+										&nbsp a <a href="" data-toggle="modal" data-target="#modalIntroB">gamer</a> <img src="assets/img/icons/Amogus.gif" style="width:3%"></image><br> 
 										and a 	<a href="" data-toggle="modal" data-target="#modalIntroC">programmer</a> 👨🏻‍💻 </p>
 									<ul class="actions">
-										<li><div class="row"><img src="assets/img/icons/hand.gif" class="my-3" style="height:20%; width: 20%;"><a href="" class="start-btn my-3" data-toggle="modal" data-target="#modalTest" style='font-family: "Press Start 2P", system-ui; text-decoration:none; font-size: 18px;'>My Resume!</a></div>
+										<li><div class="row">
+												<img src="assets/img/icons/hand.gif" class="pt-3" style="height:15%; width: 15%;">
+												<a href="" class="start-btn" data-toggle="modal" data-target="#modalTest" style='font-family: "Press Start 2P", system-ui; text-decoration:none; font-size: 18px;'>My Resume!</a>
+											</div>
 										</li>
 									</ul>
 								</div>
-								<div class="col wrapper col-md-3">
-									<figure class="ml-3 shadow p-3 mb-5 bg-white ">
+								<div class="col-md-3 px-3 mx-3">
+									<figure class="shadow p-3 mb-5 bg-white" style="transform: rotate(8deg);">
 										<img id="imgTesto" class="figure-img img-fluid img-responsive" src="assets/img/me/placeholder.jpg" alt="yours_truly">
 										<figcaption id="imgCaption" class="cedarville-cursive-regular">me 🗿</figcaption>
+									</figure>
+								</div>	
+								<div id="fadeshowTesto" class="col-md-3 px-3 mx-3" style="transform: rotate(-12deg) scale(0.5, 0.5);">
+									<figure class="shadow p-3 mb-5 bg-white ">
+										<img id="imgTesto2" class="figure-img img-fluid img-responsive" src="assets/img/me/2.jpg" alt="yours_truly">
+										<figcaption id="imgCaption" class="cedarville-cursive-regular">me agen 🤡</figcaption>
 									</figure>
 								</div>	
 							</div>
@@ -196,13 +205,15 @@
 
 	<script>
 	//Me-Carousel
-	let images = ['assets/img/me/placeholder.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg'];
+	let images = ['assets/img/me/placeholder.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg', 'assets/img/me/easteregg.jpg'];
 	let index = 0;
 	let captionsindex = 0;
 	const imgElement = document.querySelector('#imgTesto');
+	const imgElement2 = document.querySelector('#imgTesto2');
 	
 	function change() {
 	imgElement.src = images[index];
+	imgElement2.src = images[index + 1]
 	index > 1 ? index = 0 : index++;
 	}
 

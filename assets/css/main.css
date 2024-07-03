@@ -4135,7 +4135,7 @@ body.modal-open {
  
 @keyframes floating {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 10px); }
     100%   { transform: translate(0, -0px); }    
 }
 
@@ -4144,4 +4144,11 @@ body.modal-open {
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, -1);
     transform: scale(-1, 1);
+}
+
+/* Hide on Smaller Res */
+@media only screen and (max-width: 1026px) {
+    #fadeshowTesto {
+        display: none;
+    }
 }
