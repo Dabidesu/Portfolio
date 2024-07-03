@@ -4154,3 +4154,11 @@ body.modal-open {
         display: none;
     }
 }
+
+.popover {
+	background: #1b1a55;
+    border-top: 2px solid #070f2b;
+    border-left: 2px solid #070f2b;
+    border-right: 2px solid #070f2b;
+    border-bottom: 2px solid #070f2b;
+}
