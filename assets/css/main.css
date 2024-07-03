@@ -3947,7 +3947,7 @@ hr.major {
 		margin: 0 auto; 
 		letter-spacing: .15em;
 		animation: 
-		  typing 3.5s steps(30, end),
+		  typing 1.5s steps(30, end),
 		  blink-caret .5s step-end infinite;
 	  }
 	  
