@@ -19,6 +19,9 @@
 
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="icon" type="image/x-icon" href="assets/img/icons/SStesto.png">
+
+		<!-- Preload Popover GIFs -->
+		<link rel="preload" as="image" href='assets/img/preview/preview-test.gif' width='150%'/>
 		<script type='text/javascript'> 
 			// Funni Title Animation
 			title = 'ˎˊ˗ˎˊ˗•⠀•⠀•⠀•⠀•⠀•⠀•⠀•👾👾👾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀💥💥💥⠀⠀⠀⠀⋆｡°✩⠀⠀⠀';
@@ -69,14 +72,16 @@
 								</div>
 								<div class="col-md-3 px-3 mx-3">
 									<figure class="shadow p-3 mb-5 bg-white" style="transform: rotate(8deg) scale(0.69, 0.69);">
-										<img id="imgTesto" class="figure-img img-fluid img-responsive" src="assets/img/me/placeholder.jpg" alt="yours_truly">
-										<figcaption id="imgCaption" class="cedarville-cursive-regular">me 🗿</figcaption>
+										<img id="imgTesto" class="figure-img img-fluid img-responsive" 
+										style="pointer-events: none;" src="assets/img/me/placeholder.jpg" alt="yours_truly">
+										<figcaption id="imgCaption">me 🗿</figcaption>
 									</figure>
 								</div>	
 								<div id="fadeshowTesto" class="col-md-3 px-3 mx-3" style="transform: rotate(-12deg) scale(0.5, 0.5);">
 									<figure class="shadow p-3 mb-5 bg-white ">
-										<img id="imgTesto2" class="figure-img img-fluid img-responsive" src="assets/img/me/2.jpg" alt="yours_truly">
-										<figcaption id="imgCaption" class="cedarville-cursive-regular">me agen 💀</figcaption>
+										<img id="imgTesto2" class="figure-img img-fluid img-responsive" 
+										style="pointer-events: none;" src="assets/img/me/2.jpg" alt="yours_truly">
+										<figcaption id="imgCaption">me agen 💀</figcaption>
 									</figure>
 								</div>	
 							</div>
@@ -209,7 +214,7 @@
 
 	<script>
 	//Me-Carousel
-	let images = ['assets/img/me/placeholder.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg', 'assets/img/me/easteregg.jpg'];
+	let images = ['assets/img/me/placeholder.jpg', 'assets/img/me/1.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg', 'assets/img/me/easteregg.jpg'];
 	let index = 0;
 	let captionsindex = 0;
 	const imgElement = document.querySelector('#imgTesto');
