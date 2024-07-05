@@ -4166,6 +4166,10 @@ body.modal-open {
     display: none;
 }
 
+.popover-title{
+    background: #000000;
+}
+
 .modal-color.primary {
 	color: #fff;
 	background-color: #192041;
