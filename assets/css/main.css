@@ -4168,6 +4168,54 @@ body.modal-open {
 
 .modal-color.primary {
 	color: #fff;
-	background-color: #337ab7;
-	border-color: #337ab7;
+	background-color: #192041;
+	border-color: #060621;
+}
+
+
+.cardTesto{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 69%;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    text-decoration: none;
+	font-weight:bold;
+    color: #E8E8FA;
+    background-color: #2828C5;
+    border-color: #16166B;
+}
+
+.no-padding {
+	padding: 0px 0px 0px !important;
+}
+
+.modalC {
+	background-color: #192041;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.modalC div {
+	background-color: #455ba3;
+	border-radius: 5px;
+	padding: 10px 20px;
+	transition: background-color 0.3s, transform 0.3s;
+	text-align: center;
+}
+
+.modalC div:hover {
+	background-color: #3b4a72;
+	transform: translateY(-5px);
 }
