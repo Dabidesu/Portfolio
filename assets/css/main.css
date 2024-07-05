@@ -3918,7 +3918,6 @@ hr.major {
   .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin-left: 5%;
   }
   
   .column {
