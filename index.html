@@ -340,11 +340,11 @@
 						const container = document.getElementById(containerId);
 						items.forEach(item => {
 							const div = document.createElement('div');
-							if (item === "Python") {
+							// if (item === "Python") {
 								div.setAttribute('data-bs-trigger', 'hover');
 								div.setAttribute('data-toggle', 'popover');
 								div.setAttribute('title', 'Testo');
-							}
+							// }
 							div.textContent = item;
 							container.appendChild(div);
 						});
