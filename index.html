@@ -36,7 +36,6 @@
 		</script>
 	</head>
 	<body class="is-preload">
-
 		<!-- Sidebar -->
 			<section id="sidebar" style="z-index: 5" >
 				<div class="inner">
@@ -49,7 +48,6 @@
 					</nav>
 				</div>
 			</section>
-			
 			<div id="wrapper">
 					<section id="intro" class="wrapper style1 fullscreen fade-up ">
 						<div class="container d-flex justify-content-center">
@@ -60,7 +58,7 @@
 									<h3><a href="#" id="playAudioLink">/ðə bɪd/</a> <span class="small">🔊</span></h3><br>
 									<audio id="audio" src="assets/audio/IPA.mp3"></audio>
 									<p style='font-family: "Tiny5", sans-serif;'>a <a href="" data-toggle="modal" data-target="#modalIntroA">tech enthusiast</a> 🤖 <br>
-										&nbsp a <a href="" data-toggle="modal" data-target="#modalIntroB">gamer</a> <img src="assets/img/icons/Amogus.gif" style="width:3%; pointer-events: none;"></image><br> 
+										&nbsp a <a href="" data-toggle="modal" data-target="#modalIntroB">gamer</a> <img src="assets/img/icons/Amogus.gif" style="width:3%"></image><br> 
 										and a 	<a href="" data-toggle="modal" data-target="#modalIntroC">programmer</a> 👨🏻‍💻 </p>
 									<ul class="actions">
 										<li><div class="row">
@@ -87,7 +85,6 @@
 							</div>
 						  </div>
 					</section>
-
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2 style='font-family: "Tiny5", sans-serif;'>List of Projects⠀<img src="assets/img/icons/heartless.gif" style="width:5%"></h2>
@@ -100,9 +97,6 @@
 									<h3><a href="https://dabidesu.github.io/GranoReal/" target="_blank" class="proj"  data-bs-trigger="hover" data-toggle="popover" data-html="true" data-content="<img id='popovergif' src='assets/img/preview/preview-test.gif' width='150%'/>">Grano Real</a></h3>
 									<p>A static website for my father's startup company.</p>
 								</section>
-
-								
-
 								<section>
 									<span class="icon solid major fa-code overflow-hidden" style="display:inline-flex">
 										<img src=""></img>
@@ -139,7 +133,6 @@
 							</ul>
 						</div>
 					</section>
-
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2 style='font-family: "Tiny5", sans-serif;'>Contact Me⠀<img src="assets/img/icons/red.gif" style="width:5%"></h2>
@@ -164,7 +157,6 @@
 											<div class="field">
 												<div class="h-captcha" data-captcha="true"></div>
 											</div>
-											
 										</div>
 										<ul class="actions">
 											<li><a href="#" class="button submit" style='font-family: "Tiny5", sans-serif; text-decoration:none;'>Send Message</a></li>
@@ -209,7 +201,6 @@
 			<script src="assets/js/main.js"></script>
 			<script src="https://web3forms.com/client/script.js" async defer></script>
 	</body>
-
 	<script>
 	//Me-Carousel
 	let images = ['assets/img/me/1.jpg', 'assets/img/me/2.jpg', 'assets/img/me/3.jpg', 'assets/img/me/easteregg.jpg'];
@@ -390,6 +381,7 @@
 
 					<h2 class="text-center my-3" style='font-family: "Tiny5", sans-serif;'>[ Miscellaneous ]</h1>
 						<div class="modalC">
+							
 							<div>Git</div>
 							<div>Django</div>
 							<div>Flask</div>
@@ -407,26 +399,6 @@
 							<div>Figma</div>
 					</div>
 				</div>
-				<script>
-					const languages = ["Python", "R", "Java", "C#", "C++", "JavaScript", "TypeScript", "PHP", "SQL"];
-					const miscellaneous = ["Git", "Django", "Flask", "Laravel", "Angular", "Spring", "MySQL", "NoSQL", "CSS", "Bootstrap", "jQuery", "Unity", "Android Studio", "Bootstrap Studio", "Figma"];
-				
-					const createDivs = (items, containerId) => {
-						const container = document.getElementById(containerId);
-						items.forEach(item => {
-							const div = document.createElement('div');
-							if (item === "Python") {
-								div.setAttribute('data-bs-trigger', 'hover');
-								div.setAttribute('data-toggle', 'popover');
-								div.setAttribute('title', 'Testo');
-							}
-							div.textContent = item;
-							container.appendChild(div);
-						});
-					};
-					createDivs(languages, 'languages');
-					createDivs(miscellaneous, 'miscellaneous');
-				</script>
 			</div>
 		</div>
 	</div>
