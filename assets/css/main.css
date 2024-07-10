@@ -1398,6 +1398,9 @@ background: #070f2b;
 
 
 /* Popover */
+.popover .arrow {
+    display: none;
+}
 
 .modal-color.primary {
 	color: #ffffff;
