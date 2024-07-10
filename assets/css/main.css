@@ -4232,3 +4232,8 @@ body.modal-open {
 	background-color: #3b4a72;
 	transform: translateY(-5px);
 }
+
+.figure-img {
+	max-width: 100%;
+	height: auto;
+}
