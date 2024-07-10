@@ -4161,9 +4161,9 @@ body.modal-open {
     border-bottom: 2px solid #070f2b; */
 }
 
-/* .popover-content {
-    border-radius: 10px;
-} */
+.popover-content img {
+	display: none;
+}
 
 .popover .arrow {
     display: none;
