@@ -3850,42 +3850,37 @@ hr.major {
 		}
 
 
-
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
-
-		#intro p {
+		#intro {
+			position: relative;
+			height: 100vh; 
+			background-attachment: fixed;
+			background-image: url("images/intro.svg");
+			background-repeat: no-repeat;
+			background-size: cover; 
+		  }
+		  
+		  #intro p {
 			font-size: 1.25em;
-		}
+		  }
+		  
 
-			@media screen and (max-width: 980px) {
-
-				#intro p br {
-					display: none;
-				}
-
+		  @media screen and (max-width: 980px) {
+			#intro p br {
+			  display: none;
 			}
-
-			@media screen and (max-width: 736px) {
-
-				#intro p {
-					font-size: 1em;
-				}
-
+		  }
+		  
+		  @media screen and (max-width: 736px) {
+			#intro p {
+			  font-size: 1em;
 			}
-
-		@media screen and (max-width: 1280px) {
-
+		  }
+		  
+		  @media screen and (max-width: 1280px) {
 			#intro {
-				background-attachment: scroll;
+			  background-attachment: scroll; 
 			}
-
-		}
+		  }
 
 
 .proj:hover {
@@ -4244,5 +4239,3 @@ body.modal-open {
 	max-width: 100%;
 	height: auto;
 }
-
-/* Gameboy Testo */
