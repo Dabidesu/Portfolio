@@ -273,6 +273,14 @@
 			$('#popovergif').hide();
 		});
 	});
+
+	$(document).ready(function() {
+		$('.modal').on('show.bs.modal', function () {
+			$('body').css('padding-right', '0');
+		}).on('hidden.bs.modal', function () {
+			$('body').css('padding-right', '0');
+		});
+	});
 	</script>
 
 

@@ -1366,6 +1366,7 @@ background: #070f2b;
 .modal {
 	overflow-y: auto;
    }
+
 .start-btn{
     text-align: center;
 	display: inline-block;
@@ -1398,6 +1399,20 @@ background: #070f2b;
 
 
 /* Popover */
+.popover {
+	background: none !important; /* Important to override default Bootstrap styles */
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.popover .popover-header {
+	background: none !important;
+}
+
+.popover .popover-body {
+	background: none !important;
+}
+
 .popover .arrow {
     display: none;
 }
@@ -1440,4 +1455,9 @@ background: #070f2b;
 .figure-img {
 	max-width: 100%;
 	height: auto;
+}
+
+.modal-open {
+    overflow: hidden;
+    padding-right: 10px;
 }
