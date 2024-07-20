@@ -1,5 +1,6 @@
-<svg id="intro-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" zoomAndPan="disable" style="width: 100%; height: auto;">
-  <rect style="opacity:0.69; fill:#001733;" width="1000" height="500"/>
+<svg id="intro-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: auto;">
+
+	<rect style="opacity:0.69; fill:#001733;" width="1000" height="500"/>
 <g>
 	<rect x="25" y="472.222" style="opacity:0.8;fill:#060F2A;" width="25" height="27.778"/>
 	<rect x="100" y="472.222" style="opacity:0.8;fill:#060F2A;" width="25" height="27.778"/>
