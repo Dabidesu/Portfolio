@@ -3894,7 +3894,7 @@ hr.major {
 
   figure{
 	width: 260px;
-	height: 403px;
+	height: 400px;
 	position: relative;
 	background-color: #eaeaea;
 	padding: 19px 19px 85px 19px;
@@ -4244,3 +4244,5 @@ body.modal-open {
 	max-width: 100%;
 	height: auto;
 }
+
+/* Gameboy Testo */
