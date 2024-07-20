@@ -1400,17 +1400,22 @@ background: #070f2b;
 
 /* Popover */
 .popover {
-	background: none !important; /* Important to override default Bootstrap styles */
+	background: none !important; 
 	box-shadow: none !important;
 	border: none !important;
+	color: #ff0000;
 }
 
 .popover .popover-header {
-	background: none !important;
+	/* background: none !important; */
+	color: #000000;
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
 }
 
 .popover .popover-body {
 	background: none !important;
+	color: #0088ff;
 }
 
 .popover .arrow {
