@@ -4155,8 +4155,8 @@ body.modal-open {
 }
 
 .popover .popover-header {
-	/* background: none !important; */
-	color: #000000;
+	background: #ffffff !important;
+	color: #43548d;
 	border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important;
 	
