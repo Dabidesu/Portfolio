@@ -2624,7 +2624,7 @@ hr.major {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		/* margin: 0 0 2em 0; */
 		padding-left: 1em;
 	}
 
@@ -4157,6 +4157,9 @@ body.modal-open {
 .popover .popover-header {
 	background: #ffffff !important;
 	color: #43548d;
+	/* padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+	height: 10 !important; */
 	/* border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important; */
 	
