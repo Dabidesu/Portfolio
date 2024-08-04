@@ -169,7 +169,7 @@
 							<h2 style='font-family: "Tiny5", sans-serif;'>Contact Me⠀<img src="assets/img/icons/red.gif" style="width:5%; pointer-events: none;" alt="pokewalk"></h2>
 							<p>Your message will go straight to my email once submitted!</p>
 							<div class="split style1">
-								<section>
+								<section id="contact-form">
 									<form action="https://api.web3forms.com/submit" method="POST">
 										<input type="hidden" name="access_key" value="f12f6e52-ff77-4a68-b7a0-6959f29fb396">
 										<div class="fields">
@@ -233,6 +233,22 @@
 						</div>
 					</section>
 			</div>
+
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+					var hcaptchaLoaded = false;
+					var observer = new IntersectionObserver(function(entries) {
+						if(entries[0].isIntersecting && !hcaptchaLoaded) {
+							var script = document.getElementById("hcaptcha-script");
+							script.src = "https://hcaptcha.com/1/api.js";
+							hcaptchaLoaded = true;
+						}
+					}, { threshold: 0.1 });
+				
+					var form = document.getElementById("contact-form");
+					observer.observe(form);
+				});
+			</script>
 			
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -244,7 +260,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://web3forms.com/client/script.js" async defer></script>
+			<!-- <script id="hcaptcha-script" src="https://hcaptcha.com/1/api.js" async defer></script> -->
+			<script id="hcaptcha-script" src="https://web3forms.com/client/script.js" async defer></script>
 	</body>
 	<script>
 	//Me-Carousel
