@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private-directory/
+Disallow: /temporary-page.html
+Allow: /
+Sitemap: https://dabid.dev/sitemap.xml
