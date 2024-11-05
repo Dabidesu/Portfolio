@@ -4262,3 +4262,7 @@ body.modal-open {
 	max-width: 100%;
 	height: auto;
 }
+
+#resumeBtn:hover {
+	transform: scale(1.10);
+}
